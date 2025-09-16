@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Logos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #e5e5e5;
+      }
+    </style>
+  </defs>
+  <rect id="Background" x="-73.71" y="-253.4" width="193.53" height="317.27"/>
+  <g id="Gmail">
+    <path class="cls-1" d="M11.01,37.15h5.16v-12.52l-7.36-5.52v15.83c0,1.22.99,2.21,2.21,2.21"/>
+    <path class="cls-1" d="M33.84,37.15h5.16c1.22,0,2.21-.99,2.21-2.21v-15.83l-7.36,5.52"/>
+    <path class="cls-1" d="M33.84,15.06v9.57l7.36-5.52v-2.95c0-2.73-3.12-4.29-5.3-2.65"/>
+    <path class="cls-2" d="M16.16,24.63v-9.57l8.84,6.63,8.84-6.63v9.57l-8.84,6.63"/>
+    <path class="cls-1" d="M8.8,16.17v2.95l7.36,5.52v-9.57l-2.06-1.55c-2.19-1.64-5.3-.08-5.3,2.65"/>
+  </g>
+</svg>
