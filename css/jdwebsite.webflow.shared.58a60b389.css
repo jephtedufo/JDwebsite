@@ -4322,6 +4322,27 @@ blockquote {
   overflow: auto;
 }
 
+  /* Custom scrollbar for modal-content */
+  .modal-content::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+
+  .modal-content::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 1px;
+  }
+
+  .modal-content::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 5px;
+  }
+
+  @supports not selector(::-webkit-scrollbar) {
+    .modal-content {
+      scrollbar-color: var(--sb-thumb-color) transparent;
+    }
+  }
+
 .gallery-row-2 {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
